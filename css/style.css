@@ -36,12 +36,17 @@ img {
 }
 
 header {
-  padding: 1rem;
+  padding: 1em;
 }
+
 header div {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+header img {
+  width: 10em;
 }
 
 header nav ul {
@@ -51,7 +56,7 @@ header nav ul {
 
 header nav ul li {
   padding: 0;
-  padding-left: 1.5rem;
+  padding-left: 1.5em;
   list-style-type: none;
 }
 
@@ -71,27 +76,28 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
-section {
-  padding: 2rem 1rem;
-  border-top: solid #efefef 3px;
+section,
+footer {
+  padding: 2em 1em;
+  border-top: solid #fbfbfb 3px;
 }
 
 .wrapper {
   margin: 0 auto;
 }
 
-#grid {
+#intro #grid {
   display: grid;
-  gap: 16px;
+  gap: 1em;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 1rem 0;
+  padding: 1em 0;
 }
 
-#grid img:first-child {
+#intro #grid img:first-child {
   grid-column: 1/4;
 }
 
-#grid img {
+#intro #grid img {
   border-radius: 3px;
 }
 
@@ -128,7 +134,7 @@ button a:focus {
 h2 {
   text-align: center;
   font-size: var(--fluid-md);
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
 }
 
 #review {
@@ -137,6 +143,31 @@ h2 {
   border: none;
 }
 
+#quote {
+  padding: 0 3.5em;
+}
+
 blockquote {
-  padding: .5rem 0;
+  margin: 2em auto 1em auto;
+}
+
+#try-it #grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em 0;
+  text-align: center;
+}
+
+#try-it #grid img {
+  border-radius: 6px 6px 0 0;
+}
+
+article {
+  background-color: #fbfbfb;
+  border-radius: 0 0 6px 6px;
+}
+
+footer {
+  text-align: center;
 }
