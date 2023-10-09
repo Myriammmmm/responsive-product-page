@@ -90,3 +90,17 @@ section {
 #grid img {
   border-radius: 4px;
 }
+
+h1 {
+  font-size: var(--fluid-xl);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#limited {
+  font-weight: bold;
+  font-size: var(--fluid-sm);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
