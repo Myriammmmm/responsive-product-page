@@ -102,8 +102,6 @@ footer {
 }
 
 h1 {
-  font-size: var(--fluid-xl);
-  font-weight: 500;
   margin: 0;
 }
 
@@ -133,7 +131,6 @@ button a:focus {
 
 h2 {
   text-align: center;
-  font-size: var(--fluid-md);
   padding-bottom: 1em;
 }
 
@@ -171,3 +168,29 @@ article {
 footer {
   text-align: center;
 }
+
+
+/* fluid font size */
+
+h1 { 
+  font-size: var(--fluid-xl);
+  font-weight: 500;
+}
+
+h2 { 
+  font-size: var(--fluid-md);
+}
+
+h3,
+p,
+blockquote,
+cite {
+  font-size: var(--fluid-base);
+}
+
+small {
+  font-size: var(--fluid-sm);
+}
+
+
+/* media query */
