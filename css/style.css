@@ -50,15 +50,18 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 1rem;
-  padding-right: 0;
+  padding: 0;
+  padding-left: 1.5rem;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 header nav ul li a:link,
 header nav ul li a:visited {
   font-weight: 500;
-  text-decoration: none;
   color: #222;
   font-size: var(--fluid-md);
   text-transform: uppercase;
@@ -69,8 +72,8 @@ header nav ul li a:hover {
 }
 
 section {
-  padding: 3rem 1rem;
-  border-top: solid #eee 4px;
+  padding: 2rem 1rem;
+  border-top: solid #efefef 3px;
 }
 
 .wrapper {
@@ -81,6 +84,7 @@ section {
   display: grid;
   gap: 16px;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 0;
 }
 
 #grid img:first-child {
@@ -88,13 +92,13 @@ section {
 }
 
 #grid img {
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 h1 {
   font-size: var(--fluid-xl);
   font-weight: 500;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #limited {
@@ -103,4 +107,36 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+}
+
+button {
+  background-color: #222;
+  border-radius: 6px;
+  padding: .5em 1em;
+  text-align: center;
+}
+
+button a {
+ color: #fff;
+}
+
+button a:hover,
+button a:focus {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-size: var(--fluid-md);
+  padding-bottom: 1rem;
+}
+
+#review {
+  color: #fff;
+  background-color: #222;
+  border: none;
+}
+
+blockquote {
+  padding: .5rem 0;
 }
